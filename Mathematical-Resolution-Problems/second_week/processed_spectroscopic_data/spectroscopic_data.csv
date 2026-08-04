@@ -1,0 +1,7 @@
+Symmetry,Frequencies,Red. masses,Frc consts,IR Inten,filename,Raman Activ,Depolar (P),Depolar (U)
+A,30.9016,8.186,0.0046,0.0766,first_gaussian_example,38.3341,0.75,0.8571
+A,45.1395,3.7157,0.0045,1.1354,first_gaussian_example,7.563,0.5874,0.7401
+A,50.8418,7.2219,0.011,0.6991,first_gaussian_example,53.7174,0.75,0.8571
+A,242.6076,30.4472,1.0559,0.0,second_gaussian_example,,,
+A,253.8678,41.4663,1.5746,0.0576,second_gaussian_example,,,
+A,291.0721,28.2614,1.4107,2.7388,second_gaussian_example,,,
