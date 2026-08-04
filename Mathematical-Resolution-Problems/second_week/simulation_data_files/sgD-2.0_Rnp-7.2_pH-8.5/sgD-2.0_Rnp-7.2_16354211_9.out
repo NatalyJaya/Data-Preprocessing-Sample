@@ -1,0 +1,47 @@
+My SLURM_ARRAY_TASK_ID:  9
+Radius of the colloid (red units) = 7.15169894638001
+BOX_L_REDUCED = 181.84150521806058
+N_SALT = 1620
+Tune skin
+{'n_nodes': 1, 'verlet_reuse': 0.0, 'cutoff_regular': None, 'node_grid': [1, 1, 1], 'max_cut_nonbonded': -1.0, 'interaction_range': -1.0, 'n_square_types': None, 'max_cut_bonded': -1.0, 'use_verlet_lists': True, 'cell_size': array([90.92075261, 90.92075261, 90.92075261]), 'decomposition_type': 'regular_decomposition', 'cell_grid': [2, 2, 2], 'skin': 2.32421875}
+The system contains 3565 particles
+Before Minimization: E_total = 6.02e+24
+After Minimization: E_total = 0.00e+00
+0.12% done, elapsed time 3.5 minutes; estimated completion in 2 days
+0.17% done, elapsed time 4.2 minutes; estimated completion in 1.7 days
+0.21% done, elapsed time 4.8 minutes; estimated completion in 1.6 days
+0.29% done, elapsed time 5.9 minutes; estimated completion in 1.4 days
+0.46% done, elapsed time 8 minutes; estimated completion in 1.2 days
+0.67% done, elapsed time 10 minutes; estimated completion in 1.1 days
+0.96% done, elapsed time 13 minutes; estimated completion in 23 hours
+1.5% done, elapsed time 18 minutes; estimated completion in 20 hours
+2.2% done, elapsed time 25 minutes; estimated completion in 19 hours
+3.2% done, elapsed time 34 minutes; estimated completion in 17 hours
+4.8% done, elapsed time 49 minutes; estimated completion in 16 hours
+7.2% done, elapsed time 1.2 hours; estimated completion in 15 hours
+11% done, elapsed time 1.7 hours; estimated completion in 14 hours
+16% done, elapsed time 2.6 hours; estimated completion in 13 hours
+24% done, elapsed time 3.8 hours; estimated completion in 12 hours
+36% done, elapsed time 5.6 hours; estimated completion in 9.8 hours
+55% done, elapsed time 8.4 hours; estimated completion in 7 hours
+82% done, elapsed time 13 hours; estimated completion in 2.8 hours
+Run completed
+[1673020504.945057] [idun-07-08:17904:0]          ib_md.c:1063 UCX  WARN  IB: ibv_fork_init() was disabled or failed, yet a fork() has been issued.
+[1673020504.945100] [idun-07-08:17904:0]          ib_md.c:1064 UCX  WARN  IB: data corruption might occur when using registered memory.
+CoulombP3M tune parameters: Accuracy goal = 1.00000e-03 prefactor = 2.01217e+00
+System: box_l = 1.81842e+02 # charged part = 3564 Sum[q_i^2] = 3.56400e+03
+mesh cao r_cut_iL    alpha_L     err       rs_err    ks_err    time [ms]
+16   7   1.19901e-01 1.53565e+01 9.959e-04 7.071e-04 7.012e-04 327.26  
+16   6   1.22756e-01 1.49734e+01 9.953e-04 7.071e-04 7.005e-04 337.07  
+34   7   6.36976e-02 3.02246e+01 9.670e-04 7.071e-04 6.597e-04 110.32  
+34   6   6.46344e-02 2.97573e+01 9.989e-04 7.071e-04 7.055e-04 112.27  
+34   5   6.74445e-02 2.84352e+01 9.765e-04 7.071e-04 6.735e-04 121.32  
+52   7   4.37921e-02 4.50605e+01 9.926e-04 7.071e-04 6.966e-04 59.71   
+52   6   4.57827e-02 4.29781e+01 9.326e-04 7.071e-04 6.080e-04 63.53   
+70   7   3.42126e-02 5.85844e+01 9.554e-04 7.071e-04 6.425e-04 61.48   
+70   6   3.48968e-02 5.73649e+01 9.722e-04 7.071e-04 6.673e-04 66.00   
+88   7   2.77977e-02 7.30297e+01 9.812e-04 7.071e-04 6.803e-04 101.41  
+88   6   2.88669e-02 7.01637e+01 9.406e-04 7.071e-04 6.203e-04 107.03  
+
+resulting parameters: mesh: (52, 52, 52), cao: 7, r_cut_iL: 4.3792e-02,
+                      alpha_L: 4.5060e+01, accuracy: 9.9260e-04, time: 59.71
